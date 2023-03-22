@@ -18,14 +18,14 @@ int main()
       z= z + x;
       if(z>50)
       {
-        k = (z*5)*(100/85);
+        k = (z*5)*(85/100);
         printf("il prezzo totale annonta a %d\n", k);
       }
       else
       {
         if(z>30)
         {
-            k=(z*5)*(100/90);
+            k=(z*5)*(90/100);
             printf("il prezzo totale ammonta a %d\n", k);
         }
         else
